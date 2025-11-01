@@ -15,7 +15,7 @@ import toast from "react-hot-toast";
 import axios from "axios";
 import { Rocket, Menu, X, Star, Link2, Award } from "lucide-react";
 
-const API_BASE = 'http://localhost:5000/api';
+const API_BASE = 'https://zerolag.onrender.com/api';
 
 export default function Navbar() {
   const { userPoints, displayName, setUserPoints, setDisplayName } = useArticleStore();

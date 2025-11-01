@@ -6,7 +6,7 @@ import { useNavigate } from "react-router-dom";
 import axios from "axios";
 import { Newspaper, BookOpen, ThumbsUp, MessageSquare, Target, Gem, Link2, Rocket, Inbox, X } from "lucide-react";
 
-const API_BASE = 'http://localhost:5000/api';
+const API_BASE = 'https://zerolag.onrender.com/api';
 
 export default function CuratedArticlesPage() {
   const navigate = useNavigate();

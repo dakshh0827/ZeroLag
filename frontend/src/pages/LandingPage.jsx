@@ -10,7 +10,7 @@ import { decodeEventLog } from "viem";
 import axios from "axios";
 import { Rocket, Search, CheckCircle, X, Target, Gem, Link2, BookOpen, Sparkles, Zap, Link as LinkIcon, Check, Clock, FileText, Newspaper, Key, User, Calendar, Globe, ExternalLink, HourglassIcon, Loader, CheckCircle2, Save } from "lucide-react";
 
-const API_BASE = 'http://localhost:5000/api';
+const API_BASE = 'https://zerolag.onrender.com/api';
 
 export default function LandingPage() {
   const [url, setUrl] = useState('');
