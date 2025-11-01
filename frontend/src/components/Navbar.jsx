@@ -133,7 +133,7 @@ export default function Navbar() {
       return false;
     } catch (error) {
       console.error('Failed to save display name to database:', error);
-      toast.error('Failed to save name to database');
+      // toast.error('Failed to save name to database');
       return false;
     } finally {
       setSavingToDb(false);
@@ -161,7 +161,7 @@ export default function Navbar() {
           setNewName("");
           refetchName();
         } else {
-          toast.error("Blockchain success but DB save failed", { id: "setNameToast" });
+          // toast.error("Blockchain success but DB save failed", { id: "setNameToast" });
         }
       }
 
