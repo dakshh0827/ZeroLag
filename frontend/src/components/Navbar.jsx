@@ -268,7 +268,7 @@ export default function Navbar() {
               <Rocket className="w-6 h-6 text-white" />
             </div>
             <span className="text-2xl font-black text-white uppercase tracking-wide">
-              Zerolag
+              LedgerLens
             </span>
           </Link>
           
